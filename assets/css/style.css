@@ -18,6 +18,9 @@
   text-rendering: optimizeLegibility;
   font-display: auto;
 }
+body {
+  direction: rtl;
+}
 .body-loader {
   width: 100%;
   height: 100vh;
@@ -94,4 +97,39 @@
   100% {
     transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
   }
+}
+ li {
+  padding: 10px;
+}
+.vertical-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  background-color: #353353; /* Adjust the background color as needed */
+  padding: 20px;
+  padding-top: 20px;
+}
+
+.vertical-menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.vertical-menu li {
+  margin-bottom: 10px;
+}
+
+.vertical-menu .nav-link {
+  color: #fff; /* Adjust the text color as needed */
+}
+
+.vertical-menu .nav-link:hover {
+  color: #55efc4; /* Adjust the hover color as needed */
+}
+
+/* Add other styles you need for the vertical menu */
+.vertical-p {
+  color: #a5b1c2;
+  writing-mode: vertical-rl;
 }

@@ -22,8 +22,7 @@
   font-display: auto;
 }
 
-
- li {
+li {
   padding: 10px;
 }
 .vertical-menu {
@@ -60,7 +59,7 @@
 }
 .intro {
   margin: auto;
-  
+
   max-width: 540px;
   text-align: center;
   position: relative;
@@ -69,7 +68,7 @@
   height: 85vh;
   min-height: 85vh;
   padding: 0;
-} 
+}
 .intro img {
   width: 10rem;
   height: 10rem;
@@ -94,7 +93,7 @@
 }
 .button {
   --main-focus: #2d8cf0;
-  --font-color: #FFFF;
+  --font-color: #ffff;
   --bg-color-sub: #a987ee;
   --bg-color: #8151e0;
   --main-color: #323232;
@@ -112,7 +111,9 @@
   justify-content: flex-end;
 }
 
-.button, .button__icon, .button__text {
+.button,
+.button__icon,
+.button__text {
   transition: all 0.4s;
 }
 
@@ -161,10 +162,10 @@
   height: 40px;
   background-color: none;
   border-radius: 50%;
-  border: solid 2px #FFFF;
+  border: solid 2px #ffff;
 }
 .scroll-section svg {
-  margin: auto
+  margin: auto;
 }
 .scroll-section-main {
   margin-top: -3rem;
@@ -196,4 +197,25 @@
 }
 .skill-info h6 {
   margin-top: auto;
+}
+
+.service-box-1 {
+  background-color: rgb(108, 108, 229);
+  padding: 30px;
+  box-shadow: 0px 5px 20px 0px rgba(108, 108, 229, 0.5);
+}
+.service-box-2 {
+  padding: 30px;
+  background-color: rgb(249, 215, 76);
+  box-shadow: 0px 5px 20px 0px rgba(249, 215, 76, 0.5);
+}
+.service-box-3 {
+  padding: 30px;
+  background-color: rgb(249, 123, 139);
+  box-shadow: 0px 5px 20px 0px rgba(249, 123, 139, 0.5);
+}
+.service-box-1 , .service-box-2 , .service-box-3 {
+  max-width: 370px;
+  height: 370px;
+  line-height: 35px;
 }

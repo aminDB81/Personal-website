@@ -218,4 +218,9 @@ li {
   max-width: 370px;
   height: 370px;
   line-height: 35px;
+  transition: all 0.3s ease-in-out;
+  transform: translateY(0);
+}
+.service-box-1:hover , .service-box-2:hover , .service-box-3:hover {
+  transform: translateY(-15px);
 }

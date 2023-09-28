@@ -219,6 +219,8 @@ li {
   line-height: 35px;
   transition: all 0.4s ease-in-out;
   transform: translateY(0);
+  padding: 50px;
+  font-size: 16px;
 }
 .service-box-1:hover,
 .service-box-2:hover,

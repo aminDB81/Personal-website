@@ -247,3 +247,44 @@ li {
   position: absolute;
   margin: -59px -35px;
 }
+.service_area {
+  padding-top: 150px;
+  padding-bottom: 120px;
+}
+.wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.wrapper h1 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.wrapper {
+  position: relative;
+  width: 280px;
+  height: 250px;
+  overflow: hidden;
+}
+.caption1 {
+  position: absolute;
+  color: #fafafa;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(185, 35, 255, 0.6);
+  transform: translateY(100%);
+  transition: transform 0.7s;
+}
+.wrapper:hover .caption1 {
+  transform: translateY(0%);
+}
+.about-image img {
+  width: 100%;
+  height: 100%;
+}

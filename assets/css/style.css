@@ -242,7 +242,7 @@ li {
   transform: translateY(-20px);
 }
 .content {
-  border-right: 2px solid red;
+  border-right: 2px solid #ea4d4d;
   padding: 20px;
 }
 
@@ -302,7 +302,7 @@ li {
   width: 225px;
   height: 276px;
   border-radius: 30px;
-  background: url(/assets/img/Works/calculator.png);
+  background: url(/assets/img/Works/calculator.jpg);
   background-size: cover;
 }
 .first-work-description {
